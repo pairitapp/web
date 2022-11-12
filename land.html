@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">   
+
+</head>
+<body>
+    <div class="navbar">
+        <img class="logo" src="media/PairIt_Logo.png" alt="logo">
+        <nav>
+            <a href="land.html">About</a>
+            <a href="https://apps.apple.com/ca/app/pairit/id6443927039" target="_blank">Download</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacypolicy.html">Privacy Policy</a>
+        </nav>
+    </div>
+    
+
+    <div>
+        <h1>What is PairIt ?</h1>
+
+        <p>
+
+            <p>
+                <video autoplay loop muted src="media/PairItVideoPreview.mov" alt="preview" class="video_preview">
+            </p>
+
+            <p class="text_content">
+                Who would've thought learning languages can be fun?
+                <br><br>
+                You must try to match each word with its translation
+                as fast as possible!
+            </p>
+        </p>
+
+        <h1>Team</h1>
+
+        <p class="text_content">
+            In a team of two, Rodolphe and Adam, we built the entire app
+            with SwiftUI. After months of work, we finally released PairIt
+            on the App Store on October 27, 2022.
+
+            <br><br>
+
+            We had the idea to build this app while trying to learn a
+            new language. We were looking for an app that would help us
+            learn vocabulary rapidly and efficiently. We couldn't find any,
+            so we built one!
+
+            <br><br>
+
+            For the sound design and art, all the credits go to
+            Elvis a.k.a. CherryLondon, Remi and April.
+        </p>
+
+        <h1>How it works</h1>
+        <p class="text_content">
+
+            In each game, there are three levels which are in increasing difficulty.
+            A level is completed once the user has seen all of the words in that level.
+            To show a user new words, we use rounds.
+
+            <br><br>
+
+            Each round contains six words and their translation. The algorithm
+            was built in a way such that you can play forever! 
+            <br><br>
+            First, we built a database of the words and their translation.
+            To do so, we collected a list of the most frequent 2000 words in
+            English and then translated them into 100+ languages.
+            <br><br>
+            To decide which words to show the user, we built a 
+            <a href="https://en.wikipedia.org/wiki/Spaced_repetition" target="_blank">
+                spaced repetition
+            </a>
+            algorithm based on the time taken to match two words together.
+            This means that in any round, some words will be new while others
+            have already been seen.
+            
+        </p>
+    
+            
+        
+    </div>
+    
+</body>
+</html>
